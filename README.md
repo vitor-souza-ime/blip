@@ -22,8 +22,8 @@ This project uses the **BLIP (Bootstrapped Language Image Pretraining)** model b
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/blip-caption-generator.git
-cd blip-caption-generator
+git clone https://github.com/your-username/blip.git
+cd blip
 pip install torch transformers pillow requests
 ```
 
@@ -32,7 +32,7 @@ pip install torch transformers pillow requests
 Run the main script to generate captions for a list of images:
 
 ```bash
-python generate_captions.py
+python main.py
 ```
 
 The script will:
